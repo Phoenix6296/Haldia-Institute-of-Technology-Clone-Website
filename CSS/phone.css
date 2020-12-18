@@ -1,0 +1,286 @@
+/* FIRST NAVIGATION BAR  */
+.nav1 ul{
+    margin: 0 8.33%;
+    display: flex;
+    list-style: none;
+    display: none;
+}
+
+/* SECOND NAVIGATION BAR */
+.nav2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.nav2 ul{
+    display: none;
+}
+#unseen{
+    display: block;
+}
+.nav2 h1{
+    font-family: Playfair Display;
+    text-align: center;
+    padding: 35px 0;
+    margin-right: 10px;
+    display: block;
+    font-size: 1rem;
+
+}
+
+/* VIDEO */
+.collegeVideo {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+/* PART 1 */
+.part1{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.divide1{
+    margin: 0 8.33%;
+    width: 83.33%;
+    text-align: center;
+}
+.divide1 button{
+    margin: 10px 60px;
+}
+.divide2{
+    margin: 0 8.33%;
+    width: 83.33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.divide2 button{
+    margin: 10px 60px;
+}
+.divide3{
+    width: 83.33%;
+    margin: 0 8.33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+/* PART 2 */
+.part2{
+    height: 1050px;
+    overflow: hidden;
+}
+.heading{
+    margin-top: 8.33%;
+}
+.part21{
+    display: flex;
+    flex-direction: column;
+    margin: 0 8.33%;
+}
+.part21 button{
+    margin: 100px 10px;
+}
+.dropdownContent {
+    margin-top: 20px;
+}
+
+
+
+/* PART 3 */
+.part3{
+    width: 100%;
+    height: 5000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    overflow: hidden;
+}
+.part31{
+    height: 1800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.part311{
+    height: 700px;
+    width: 80.33%;
+    margin-left: 8.33%;
+    text-align: center;
+    justify-content: center;
+}
+.button {
+    padding: 16px 30.67%;
+    margin-right: 30px;
+}
+.part312{
+    height: 1000px;
+    width: 85.33%;
+    text-align: center;
+}
+.part3121{
+    flex-direction: column;
+}
+.part3121 img{
+    margin: 0 10%;
+}
+.part3121 p{
+    margin: 10px 20%;
+}
+.part3122{
+    width: 100%;
+    flex-direction: column;
+}
+.part3122 img{
+    margin: 0 10%;
+}
+.part3122 p{
+    margin: 10px 20%;
+}
+.part32{
+    height: 3700px;
+}
+#rectangle{
+    width: 100%;
+    height: 25%;
+    border: 2px solid black;
+    text-align: left;
+}
+.part321{
+    height: 50%;
+    flex-direction: column;
+}
+.part321 img{
+    margin: 10px;
+    height: 25%;
+    border: 2px solid black;
+}
+.part322{
+    height: 50%;
+    flex-direction: column;
+}
+.part322 img{
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+
+.part4 h1{
+    color: white;
+    font-family: Playfair Display;
+    font-size: 1.2rem;
+}
+.part4 button{
+    margin: 10%;
+    font-size: 0.8rem;
+}
+
+
+
+.part6 h1{
+    font-size: 0.9rem;
+}
+
+
+/* PART 7 */
+.part7{
+    width: 100%;
+    height: 2100px;
+    background-color: #212327;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part71{
+    flex-direction: column;
+    height: 45%;
+}
+.part711{
+    width: 100%;
+    height: 250px;
+    border-top: 2px solid white;
+    border-bottom: none;
+}
+.part712{
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+.part713{
+    width: 100%;
+    height: 220px;
+    border: none;
+}
+.part714{
+    width: 100%;
+    height: 170px;
+    border-top: none;
+    border-bottom: 2px solid white;
+}
+.part72{
+    flex-direction: column;
+    height: 45%;
+}
+.part721{
+    width: 100%;
+    height: 35%;
+    border: none;
+}
+.part722{
+    width: 100%;
+    height: 30%;
+    border: none;
+}
+.part723{
+    width: 100%;
+    height: 35%;
+    border: none;
+}
+.part724{
+    width: 100%;
+    height: 30%;
+    border-top: none;
+    border-bottom: 2px solid white;
+}
+
+
+
+/* FOOTER */
+.footer{
+    height: 70px;
+    margin: 0;
+}
+.footer1{
+    margin: 3%;
+}
+.footer p{
+    text-align: center;
+}
+.footer2{
+    width: 25%;
+}
+.footer2 img{
+    margin-left: 5px;
+    margin-top: 10px;
+}

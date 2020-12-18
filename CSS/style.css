@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* FIRST NAVIGATION BAR */
+.nav1{
+    width: 100%;
+    height: 40px;
+    background-color: #5BAC72;
+}
+.nav1 ul{
+    margin: 0 8.33%;
+    display: flex;
+    list-style: none;
+}
+.nav1 li{
+    padding: 9px;
+    font-family: Didact Gothic;
+    font-size: 0.9rem;
+    border-left: 1px solid #6FB886;
+    border-right: 1px solid #6FB886;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.listLink{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    opacity: 80%;
+    min-width: 160px;
+    z-index: 10;
+}
+.dropdown-content a {
+    color: white;
+    font-family: Didact Gothic;
+    font-size: 0.8rem;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color:#5BAC72;
+}  
+.listLink:hover .dropdown-content {
+    display: block;
+    transition: 1s;
+}
+
+
+
+
+/* SECOND NAVIGATION BAR */
+.nav2{
+    width: 100%;
+    height: 100px;
+    background-color: #419355;
+}
+#unseen{
+    display: none;
+}
+.nav2 h1{
+    display: none;
+}
+.nav2 ul{
+    display: flex;
+    list-style: none;
+}
+#UpperUL{
+    margin: 0 8.33%;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-left: 1px solid #60AD7F;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+.nav2 li{
+    color: white;
+    font-size: 0.8rem;
+    font-family: Didact Gothic;
+}
+.insideList{
+    margin-top: 10px;
+    color: #60AD7F;
+}
+.insideList:hover{
+    color: black;
+}
+#name{
+    margin-top: 36px;
+    font-size: 1rem;
+    margin-right: 80px;
+    color: white;
+}
+.nav2 img{
+    padding: 9px;
+    margin-top: 20px;
+}
+.nav2 a{
+    text-decoration: none;
+}
+
+
+
+/* VIDEO SECTION */
+.collegeVideo {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+/* PART 1 */
+.part1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #5BAC72;
+}
+.divide1{
+    background-color: #5BAC72;
+    height: 300px;
+    margin-left: 120px;
+    width: 27.77%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.divide1 h1{
+    margin: 30px 40px 20px 40px;
+    font-family: Playfair Display;
+}
+.divide1 p{
+    margin: 20px 40px 20px 40px;
+    font-family: Didact Gothic;  
+}
+.divide1 button{
+    margin: 10px 120px;
+    padding: 15px 20px;
+    background-color: #5BAC72;
+    color: white;
+    font-family: Didact Gothic;  
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.divide1 button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.divide2{
+    background-color: #5BAC72;
+    height:300px;
+    width: 27.77%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.divide2 h1{
+    margin: 30px 40px 20px 40px;
+    font-family: Playfair Display;
+}
+.divide2 p{
+    margin: 20px 40px 20px 40px;
+    font-family: Didact Gothic;  
+}
+.divide2 button{
+    margin: 50px 120px;
+    padding: 15px 20px;
+    background-color: #5BAC72;
+    color: white;
+    font-family: Didact Gothic;  
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.divide2 button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.divide3{
+    height:300px;
+    width: 27.77%;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+.divide3 h1{
+    margin: 20px 40px 20px 40px;
+    font-family: Playfair Display;
+}
+.divide3 p{
+    margin: 0px 40px 20px 40px;
+    font-family: Didact Gothic;  
+}
+
+
+
+/* PART 2 */
+.part2{
+    height: 800px;
+    width: 100%;
+    background-color: black; 
+    opacity: 80%;
+    z-index: 1;
+    text-align: center;
+    overflow: hidden;
+}
+.heading{
+    /* background-color: green; */
+    margin-top: 8.33%;
+}
+.part21 h1{
+    color: white;
+    font-family: Playfair Display;
+    text-align: center;
+    margin: 50px 0;
+    z-index: 4;
+    font-size: 2rem;
+}
+.part21{
+    display: flex;
+    flex-direction: column;
+    margin: 0 8.33%;
+}
+.part211{
+    /* background-color: blue; */
+    text-align: center;
+    overflow: hidden;
+}
+.btn{
+    /* background-color: yellow; */
+    text-align: center;
+}
+.part21 img{
+    margin: 0px 10px 10px 10px;
+}
+.part21 button{
+    margin: 100px 33%;
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-family: Didact Gothic;  
+}
+.part21 button:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: white;
+
+}
+.part22 img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    z-index: -1;
+}
+
+
+
+/* PART 3 */
+.part3{
+    width: 100%;
+    height: 1500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+.part31{
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+.part311{
+    height: 700px;
+    width: 41.66%;
+    padding: 30px;
+    margin-left: 120px;
+    overflow: hidden;
+}
+.part311 h1{
+    font-family: Playfair Display;
+    color: #5EAE77;
+    font-size: 2rem;
+    margin: 0 20px 20px 0;
+}
+
+
+/* BUTTONS */
+.space{
+    margin: 5px;
+}
+.part311 button{
+    border: 1px solid black;    
+}
+.dropdown {
+    position: relative;
+}
+.button {
+    background-color: white;
+    padding: 16px 240px;
+    font-size: 16px;
+    font-family: Didact Gothic;
+}
+.dropdownContent {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    position: absolute;
+    font-family: Didact Gothic;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown button:hover{
+    color: white;
+    background-color: #5BAC72;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.dropdown:hover .dropdownContent {
+    display: block;
+    background-color: lightslategray;
+}
+.part312{
+    height: 700px;
+    width: 41.66%;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.part3121{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    padding: 90px 30px 30px 30px;
+    overflow: hidden;
+}
+.part3121 img{
+    margin-right: 30px;
+}
+.part3121 h2{
+    font-family: Didact Gothic;
+    margin-bottom: 30px;
+}
+.part3121 p{
+    font-family: Didact Gothic;
+    margin-bottom: 20px;
+}
+.part3121 button{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.part3121 button:hover{
+    background-color: grey;
+    color: white;
+}
+
+.part3122{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    padding: 30px 30px 80px 30px;
+}
+.part3122 img{
+    margin-right: 30px;
+}
+.part3122 h2{
+    font-family: Didact Gothic;
+    margin-bottom: 30px;
+}
+.part3122 p{
+    font-family: Didact Gothic;
+    margin-bottom: 20px;
+}
+.part3122 button{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.part3122 button:hover{
+    background-color: grey;
+    color: white;
+}
+.part32{
+    /* background-color: blue; */
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#rectangle{
+    height: 100%;
+    width: 25%;
+    padding: 30px;
+    background-color: #5BAC72;
+    box-sizing: border-box;
+}
+#rectangle h1{
+    font-family: Playfair Display;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+#rectangle p{
+    font-family: Didact Gothic;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+#rectangle button{
+    padding: 10px 20px;
+    font-family: Didact Gothic;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: #5BAC72;
+    border-radius: 5px;
+}
+#rectangle button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.part321{
+    margin: 130px 8.33% 0 8.33%;
+    height: 50%;
+    width: 74%;
+    display: flex;
+    text-align: center;
+    /* background-color:red; */
+}
+.part322{
+    margin: 0 8.33% 130px 8.33%;
+    height: 50%;
+    width: 74%;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+
+
+/* PART 4 */
+.part4{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.part4 h1{
+    color: white;
+    font-family: Playfair Display;
+    font-size: 2rem;
+}
+.part4 button{
+    margin-top: 100px;
+    font-family: Didact Gothic;
+    color: white;
+    font-size: 1rem;
+    background-color: #5BAC72;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+.part4 button:hover{
+    color: black;
+    background-color: white;
+    transition:0.3s;
+}
+
+
+
+
+/* PART 5
+.part5{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+} */
+
+
+
+
+/* PART 6 */
+.part6{
+    width: 100%;
+    height: 380px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+.part6 h1{
+    color: black;
+    font-family: Playfair Display;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    
+}
+.part6 img{
+    /* background-color: blue; */
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+/* PART 7 */
+.part7{
+    width: 100%;
+    height: 1050px;
+    background-color: #212327;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    margin: 80px 0 30px 0;
+    padding: 15px 50px;
+    background-color: #212327;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: Didact Gothic;
+    border-radius: 3px;
+}
+.buttons:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.part7 a{
+    text-decoration: none;
+    color: #929395;
+}
+.part7 a:hover{
+    color:white;
+    transition: 0.4s;
+}
+.part71{
+    margin: 0 8.33%;
+    display: flex;
+}
+.part71 h2{
+    margin:30px 0 20px 30px ;
+    color: white;
+    font-family: Didact Gothic;
+}
+.part71 ul{
+    color: white;
+    font-family: Didact Gothic;
+    list-style: circle;
+    margin-left: 30px;
+}
+.part71 li{
+    font-size: 0.9rem;
+}
+.part711{
+    width: 24%;
+    height: 350px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    /* background-color: yellow */
+}
+.part712{
+    width: 24%;
+    height: 350px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    /* background-color: blue */
+}
+.part713{
+    width: 24%;
+    height: 350px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    /* background-color: red */
+}
+.part714{
+    width: 24%;
+    height: 350px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    /* background-color: green */
+}
+.part72{
+    /* background-color: red; */
+    display: flex;
+    margin: 0 8.33%;
+}
+.part72 h2{
+    margin:30px 0 20px 30px ;
+    color: white;
+    font-family: Didact Gothic;
+}
+.part72 ul{
+    color: #929395;
+    font-family: Didact Gothic;
+    list-style: circle;
+    margin-left: 30px;
+}
+.part72 p{
+    color: #929395;
+    font-family: Didact Gothic;
+    list-style: circle;
+    margin-left: 30px;
+}
+.part721{
+    width: 24%;
+    height: 320px;
+    border-bottom: 1px solid white;
+    /* background-color: red */
+}
+.part722{
+    width: 24%;
+    height: 320px;
+    border-bottom: 1px solid white;
+    /* background-color: blue */
+}
+.part723{
+    width: 24%;
+    height: 320px;
+    border-bottom: 1px solid white;
+    /* background-color: red; */
+}
+.part724{
+    width: 24%;
+    height: 320px;
+    border-bottom: 1px solid white;
+    /* background-color: green */
+}
+.part72 li, p{
+    font-size: 0.9rem;
+}
+
+
+
+/* FOOTER */
+.footer{
+    height: 50px;
+    background-color: #212327;
+    /* background-color: red; */
+    display: flex;
+    user-select: none;
+    justify-content: center;
+}
+.footer1{
+    color: #929395;
+    width: 80%;
+    margin-left: 8.33%;
+    background-color: #212327;
+    /* background-color: blue; */
+}
+.footer2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 13.33%;
+    margin-right: 8.33%;
+    background-color: #212327;
+    /* background-color: #5BAC72; */
+}
+.footer2 img{
+    margin-left: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.footer a:hover{
+    -webkit-filter:invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+    transition: 0.5s;
+}
